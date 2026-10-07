@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrab.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div id="filter" class="pt-5 pb-3">
+        <div class="container">
+            <form action="">
+                <div class="row">        
+                    <div class="col-lg-6">
+                        <div class="item">    
+                            <div class="mb-3">
+                                <label for="Category" class="form-label">Category</label>
+                                <select class="form-control" id="Category" name="category">
+                                    <option value="business" selected>Business</option>
+                                    <option value="healthy">Healthy</option>
+                                    <option value="science">Science</option>
+                                    <option value="sport">Sport</option>
+                                    <option value="technology">Technology</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="item">    
+                            <div class="mb-3">
+                                <label for="Search" class="form-label">Search</label>
+                                <input type="search" class="form-control" id="Search" name="search" placeholder="Search for news... ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn w-100 bg-primary text-light">filter</button>
+            </form>
+        </div>
+    </div>
+    <div id="Data" class="pb-5">
+            <div class="container">
+                <div class="row my-5 row-gap-4 ">      
+                </div>
+                <nav class="" aria-label="Page navigation example">
+                    <ul class="pagination align-items-center justify-content-center">
+                   </ul>
+                </nav>
+            </div>
+        </div>
+    <script src="js/jQuery.js"></script>
+    <script src="js/function.js"></script>
+  <script src="js/index.js"></script>  
+</body>
+</html>

@@ -1,0 +1,75 @@
+body{
+
+
+/* background: linear-gradient(
+        135deg,
+        #f8fbff 0%,
+        #eef5ff 50%,
+        #f8fbff 100%
+    ); */
+background: linear-gradient(
+        135deg,
+        #ffffff 0%,
+        #f4f8ff 50%,
+        #eef5ff 100%
+    );
+    color: #172554;
+}
+
+#filter {
+    background: linear-gradient(
+        135deg,
+        #eaf2ff,
+        #f7faff
+    );
+    border-bottom: 1px solid #dbe7ff;
+}
+
+#filter label{
+    color: #6366F1;
+}
+
+#filter button{
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #3b82f6
+    );
+}
+
+
+
+#Data .card{
+    min-height: 450px;
+    /* height: 400px; */
+    transition-duration: 1s;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    
+}
+
+#Data .card:hover{
+transform: translateY(-5px);
+box-shadow:
+        0 8px 15px rgba(37, 99, 235, 0.12),
+        0 15px 30px rgba(37, 99, 235, 0.08);
+ border-color: #93c5fd;
+}
+
+#Data .card img{
+    height: 250px;
+    object-fit: cover;
+}
+
+#Data .card a{
+    width: fit-content;
+    background-color: #e8f0ff;
+    transition-duration: 1s;
+    font-weight: 600;
+}
+
+#Data .card a:hover {
+    color: #fff;
+    background-color:#6366F1;
+}
