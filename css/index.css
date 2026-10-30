@@ -71,3 +71,8 @@ box-shadow:
 #Data .card .box{
     height: fit-content;
 }
+
+#Data .pagination{
+    width: max-content;
+    margin: auto;
+}
