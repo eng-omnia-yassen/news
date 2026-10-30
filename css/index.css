@@ -1,12 +1,5 @@
+
 body{
-
-
-/* background: linear-gradient(
-        135deg,
-        #f8fbff 0%,
-        #eef5ff 50%,
-        #f8fbff 100%
-    ); */
 background: linear-gradient(
         135deg,
         #ffffff 0%,
@@ -15,6 +8,7 @@ background: linear-gradient(
     );
     color: #172554;
 }
+
 
 #filter {
     background: linear-gradient(
@@ -41,7 +35,7 @@ background: linear-gradient(
 
 #Data .card{
     min-height: 450px;
-    /* height: 400px; */
+    height: 520px;
     transition-duration: 1s;
     border-radius: 10px;
     overflow: hidden;
@@ -72,4 +66,8 @@ box-shadow:
 #Data .card a:hover {
     color: #fff;
     background-color:#6366F1;
+}
+
+#Data .card .box{
+    height: fit-content;
 }

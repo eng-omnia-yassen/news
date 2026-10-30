@@ -4,7 +4,7 @@ async function getData(category="business",page=1,search=""){
         q:search,
         pageSize:10,
         page:page,
-        from:"2026-10-7",
+        from:"2026-10-20",
         sortBy:"publishedAt",
         apiKey:"dc634f74813f4ce7957a61d41f259798"
     })
@@ -32,11 +32,14 @@ function cardComponent(item){
     return`
         <div class="col-lg-4 col-md-6">
             <div class="card m-auto" style="width: 18rem;">
-                <img src="${item.urlToImage??'images/default-image-icon-missing-picture-page-vector-40546530.webp'}" onerror='this.src="images/default-image-icon-missing-picture-page-vector-40546530.webp"' class="card-img-top" alt="...">
-                    <div class="card-body">
+            <img src="${item.urlToImage??'images/default-image-icon-missing-picture-page-vector-40546530.webp'}" onerror='this.src="images/default-image-icon-missing-picture-page-vector-40546530.webp"' class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-center align-items-center">
+                    <div class='box'>
                         <h5 class="card-title">${item.title?.slice(0,20)}...</h5>
                         <p class="card-text">${item.description?.slice(0,150)?? 'their is no description'}...</p>
                         <a href="${item.url}" target="blank" class="btn  d-block m-auto ">See More</a>
+                    </div>
+                        
                     </div>
             </div>
         </div>
